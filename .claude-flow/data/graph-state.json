@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "updatedAt": 1783381544948,
+  "nodeCount": 22,
+  "nodes": {
+    "mem-MEMORY-memory-index---law-office-sant": {
+      "id": "mem-MEMORY-memory-index---law-office-sant",
+      "category": "core",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544568
+    },
+    "mem-project_immigration_law----": {
+      "id": "mem-project_immigration_law----",
+      "category": "project_immigration_law",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-project_immigration_law-documents-created--all-in--use": {
+      "id": "mem-project_immigration_law-documents-created--all-in--use",
+      "category": "project_immigration_law",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-project_venezuela_mental_health_asylum----": {
+      "id": "mem-project_venezuela_mental_health_asylum----",
+      "category": "project_venezuela_mental_health_asylum",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener----": {
+      "id": "mem-reference_courtlistener----",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-courtlistener-api": {
+      "id": "mem-reference_courtlistener-courtlistener-api",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-search-opinions": {
+      "id": "mem-reference_courtlistener-search-opinions",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-full-opinion-text--by-cluster-": {
+      "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-get-specific-cluster-metadata": {
+      "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-usage-pattern": {
+      "id": "mem-reference_courtlistener-usage-pattern",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-reference_courtlistener-coverage": {
+      "id": "mem-reference_courtlistener-coverage",
+      "category": "reference_courtlistener",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile----": {
+      "id": "mem-user_profile----",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile-role": {
+      "id": "mem-user_profile-role",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile-current-focus": {
+      "id": "mem-user_profile-current-focus",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile-preferences": {
+      "id": "mem-user_profile-preferences",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile-technical-setup": {
+      "id": "mem-user_profile-technical-setup",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-user_profile-document-library-location": {
+      "id": "mem-user_profile-document-library-location",
+      "category": "user_profile",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544569
+    },
+    "mem-MEMORY-memory-index": {
+      "id": "mem-MEMORY-memory-index",
+      "category": "core",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544570
+    },
+    "mem-firm-habeas-pro-se-model----": {
+      "id": "mem-firm-habeas-pro-se-model----",
+      "category": "firm-habeas-pro-se-model",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544570
+    },
+    "mem-firm-paralegal-roberth-suarez----": {
+      "id": "mem-firm-paralegal-roberth-suarez----",
+      "category": "firm-paralegal-roberth-suarez",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544570
+    },
+    "mem-user-email----": {
+      "id": "mem-user-email----",
+      "category": "user-email",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544571
+    },
+    "mem-feedback_wps_office----": {
+      "id": "mem-feedback_wps_office----",
+      "category": "feedback_wps_office",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1783381544571
+    }
+  },
+  "edges": [
+    {
+      "sourceId": "mem-project_immigration_law----",
+      "targetId": "mem-project_immigration_law-documents-created--all-in--use",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener----",
+      "targetId": "mem-reference_courtlistener-courtlistener-api",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-courtlistener-api",
+      "targetId": "mem-reference_courtlistener-search-opinions",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-search-opinions",
+      "targetId": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+      "targetId": "mem-reference_courtlistener-get-specific-cluster-metadata",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-get-specific-cluster-metadata",
+      "targetId": "mem-reference_courtlistener-usage-pattern",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-usage-pattern",
+      "targetId": "mem-reference_courtlistener-coverage",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-user_profile----",
+      "targetId": "mem-user_profile-role",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-user_profile-role",
+      "targetId": "mem-user_profile-current-focus",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-user_profile-current-focus",
+      "targetId": "mem-user_profile-preferences",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-user_profile-preferences",
+      "targetId": "mem-user_profile-technical-setup",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-user_profile-technical-setup",
+      "targetId": "mem-user_profile-document-library-location",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+      "targetId": "mem-reference_courtlistener-get-specific-cluster-metadata",
+      "type": "similar",
+      "weight": 0.3157894736842105
+    }
+  ],
+  "pageRanks": {
+    "mem-MEMORY-memory-index---law-office-sant": 0.02113287394881895,
+    "mem-project_immigration_law----": 0.02113287394881895,
+    "mem-project_immigration_law-documents-created--all-in--use": 0.03909581009002636,
+    "mem-project_venezuela_mental_health_asylum----": 0.02113287394881895,
+    "mem-reference_courtlistener----": 0.02113287394881895,
+    "mem-reference_courtlistener-courtlistener-api": 0.03909581009002636,
+    "mem-reference_courtlistener-search-opinions": 0.054364281616433634,
+    "mem-reference_courtlistener-full-opinion-text--by-cluster-": 0.06734245667191674,
+    "mem-reference_courtlistener-get-specific-cluster-metadata": 0.07837391251706449,
+    "mem-reference_courtlistener-usage-pattern": 0.08775071715660412,
+    "mem-reference_courtlistener-coverage": 0.0957210943176935,
+    "mem-user_profile----": 0.02113287394881895,
+    "mem-user_profile-role": 0.03909581009002636,
+    "mem-user_profile-current-focus": 0.054364281616433634,
+    "mem-user_profile-preferences": 0.06734245667191674,
+    "mem-user_profile-technical-setup": 0.07837391251706449,
+    "mem-user_profile-document-library-location": 0.08775071715660412,
+    "mem-MEMORY-memory-index": 0.02113287394881895,
+    "mem-firm-habeas-pro-se-model----": 0.02113287394881895,
+    "mem-firm-paralegal-roberth-suarez----": 0.02113287394881895,
+    "mem-user-email----": 0.02113287394881895,
+    "mem-feedback_wps_office----": 0.02113287394881895
+  }
+}
