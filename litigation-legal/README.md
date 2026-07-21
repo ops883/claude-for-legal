@@ -57,6 +57,7 @@ Your configuration is stored at `~/.claude/plugins/config/claude-for-legal/litig
 | `/litigation-legal:chronology [slug]` | Build or update a chronology from declared doc sources + uploads — tagged by significance per matter theory |
 | `/litigation-legal:oc-status` | Draft weekly OC status-request emails across the portfolio; Gmail drafts if MCP available |
 | `/litigation-legal:claim-chart` | Build or review an element chart — patent claim chart (infringement / invalidity / review) or civil element chart (any cause of action or defense) with gap detection |
+| `/litigation-legal:trust-accounting` | Maintain a client trust (IOLTA) ledger and run the monthly three-way reconciliation — record deposits, disbursements, and earned-fee transfers against individual client ledgers; flag commingling, negative client balances, disbursing against uncollected funds, and reconciliation breaks |
 
 ## Skills
 
@@ -76,6 +77,7 @@ Your configuration is stored at `~/.claude/plugins/config/claude-for-legal/litig
 | **chronology** | Extract dated events from declared doc sources + uploads; de-dupe; tag significance per matter theory |
 | **oc-status** | Weekly portfolio-wide OC status-request email drafter; markdown + Gmail drafts |
 | **claim-chart** | Patent claim chart (infringement / invalidity / review) or civil element chart (any cause of action or defense). Element-by-element mapping, every cell pin-cited, gap detection. Ships with a cause-of-action template library. |
+| **trust-accounting** | Client trust (IOLTA) ledger and three-way reconciliation. Records deposits, disbursements, and earned-fee transfers against per-client ledgers; hard-stops negative client balances and disbursing against uncollected funds; flags commingling and reconciliation breaks. Reasoning/checking layer alongside the bank and trust-accounting software, not a system of record. Private-practice only. |
 
 ## Interactive commands vs. scheduled agents
 
@@ -107,10 +109,15 @@ litigation-legal/
 │       ├── incoming.[ext]
 │       ├── triage.md
 │       └── response-v1.docx           # if we respond
-└── oc-status/                         # weekly OC status-request drafts
-    └── [YYYY-MM-DD]/
-        ├── _summary.md
-        └── [slug].md                  # one email per matter
+├── oc-status/                         # weekly OC status-request drafts
+│   └── [YYYY-MM-DD]/
+│       ├── _summary.md
+│       └── [slug].md                  # one email per matter
+└── trust/                             # client trust (IOLTA) ledger — private practice only
+    ├── trust-config.yaml              # account(s), state, retention, thresholds
+    ├── journal.yaml                   # append-only transaction journal (source of truth)
+    ├── client-ledgers/[slug].md       # per-client ledgers (derived from journal)
+    └── reconciliations/[YYYY-MM].md   # monthly three-way reconciliation records
 ```
 
 Separate folders because each has a distinct workflow. Matters get tracked in the portfolio; demand letters and inbound items may or may not rise to a matter; OC status drafts are periodic artifacts. When things relate, the `related_matters` field and cross-links in `matter.md` tie them together.
