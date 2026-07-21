@@ -1,159 +1,159 @@
 {
   "version": 1,
-  "updatedAt": 1783381544948,
+  "updatedAt": 1784655267780,
   "nodeCount": 22,
   "nodes": {
     "mem-MEMORY-memory-index---law-office-sant": {
       "id": "mem-MEMORY-memory-index---law-office-sant",
       "category": "core",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544568
     },
     "mem-project_immigration_law----": {
       "id": "mem-project_immigration_law----",
       "category": "project_immigration_law",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-project_immigration_law-documents-created--all-in--use": {
       "id": "mem-project_immigration_law-documents-created--all-in--use",
       "category": "project_immigration_law",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-project_venezuela_mental_health_asylum----": {
       "id": "mem-project_venezuela_mental_health_asylum----",
       "category": "project_venezuela_mental_health_asylum",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener----": {
       "id": "mem-reference_courtlistener----",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-courtlistener-api": {
       "id": "mem-reference_courtlistener-courtlistener-api",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-search-opinions": {
       "id": "mem-reference_courtlistener-search-opinions",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-full-opinion-text--by-cluster-": {
       "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-get-specific-cluster-metadata": {
       "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-usage-pattern": {
       "id": "mem-reference_courtlistener-usage-pattern",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-reference_courtlistener-coverage": {
       "id": "mem-reference_courtlistener-coverage",
       "category": "reference_courtlistener",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile----": {
       "id": "mem-user_profile----",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile-role": {
       "id": "mem-user_profile-role",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile-current-focus": {
       "id": "mem-user_profile-current-focus",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile-preferences": {
       "id": "mem-user_profile-preferences",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile-technical-setup": {
       "id": "mem-user_profile-technical-setup",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-user_profile-document-library-location": {
       "id": "mem-user_profile-document-library-location",
       "category": "user_profile",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544569
     },
     "mem-MEMORY-memory-index": {
       "id": "mem-MEMORY-memory-index",
       "category": "core",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544570
     },
     "mem-firm-habeas-pro-se-model----": {
       "id": "mem-firm-habeas-pro-se-model----",
       "category": "firm-habeas-pro-se-model",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544570
     },
     "mem-firm-paralegal-roberth-suarez----": {
       "id": "mem-firm-paralegal-roberth-suarez----",
       "category": "firm-paralegal-roberth-suarez",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544570
     },
     "mem-user-email----": {
       "id": "mem-user-email----",
       "category": "user-email",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544571
     },
     "mem-feedback_wps_office----": {
       "id": "mem-feedback_wps_office----",
       "category": "feedback_wps_office",
-      "confidence": 0.5,
+      "confidence": 0.43,
       "accessCount": 0,
       "createdAt": 1783381544571
     }
