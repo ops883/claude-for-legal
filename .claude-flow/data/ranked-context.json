@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "computedAt": 1784743965699,
+  "computedAt": 1784815220727,
   "entries": [
     {
       "id": "mem-reference_courtlistener-coverage",
       "content": "Millions of federal and state court opinions including BIA decisions (use `court_id=bia` filter or search \"Board of Immigration Appeals\").",
       "summary": "Coverage",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.0957210943176935,
       "accessCount": 0,
       "words": [
@@ -35,7 +35,7 @@
       "content": "```bash\nTOKEN=\"user_provided_token\"\ncurl -s -H \"Authorization: Token $TOKEN\" \\\n  \"https://www.courtlistener.com/api/rest/v4/search/?q=Matter+H-A-A-V&type=o&format=json\" \\\n  | python3 -c \"import json,sys; d=json.load(sys.stdin); [print(r['caseName'], r['dateFiled']) for r in d['results'][:5]]\"\n```",
       "summary": "Usage Pattern",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.08775071715660412,
       "accessCount": 0,
       "words": [
@@ -81,7 +81,7 @@
       "content": "- Case guides: `/Users/francisco/docs/`\n- Habeas corpus library: `/Users/francisco/docs/Habeas_Corpus_Master/`",
       "summary": "Document Library Location",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.08775071715660412,
       "accessCount": 0,
       "words": [
@@ -109,7 +109,7 @@
       "content": "GET /clusters/{id}/\n```",
       "summary": "Get specific cluster metadata",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.07837391251706449,
       "accessCount": 0,
       "words": [
@@ -126,7 +126,7 @@
       "content": "- macOS, /Users/francisco/ home directory\n- WPS Office installed at /Applications/wpsoffice.app\n- Python 3 with python-docx available\n- CourtListener API authenticated (token provided per session)",
       "summary": "Technical Setup",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.07837391251706449,
       "accessCount": 0,
       "words": [
@@ -160,7 +160,7 @@
       "content": "GET /opinions/?cluster={cluster_id}&format=json",
       "summary": "Full opinion text (by cluster_id from search results)",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.06734245667191674,
       "accessCount": 0,
       "words": [
@@ -183,7 +183,7 @@
       "content": "- Prefers comprehensive .docx files with color-coded sections, tables, checklists, and callout boxes\n- Uses WPS Office on Mac\n- Wants real case law pulled from CourtListener API (has authenticated access — ask for token)\n- Works in English and Spanish\n- Wants guides usable for both attorneys and clients",
       "summary": "Preferences",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.06734245667191674,
       "accessCount": 0,
       "words": [
@@ -228,7 +228,7 @@
       "content": "GET /search/?q={query}&type=o&order_by=score+desc&format=json",
       "summary": "Search opinions",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.054364281616433634,
       "accessCount": 0,
       "words": [
@@ -250,7 +250,7 @@
       "content": "Building a library of master practice guides (.docx) for teaching and learning immigration law — covering BIA precedent cases, habeas corpus, and litigation strategies.",
       "summary": "Current Focus",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.054364281616433634,
       "accessCount": 0,
       "words": [
@@ -281,7 +281,7 @@
       "content": "| File | Case | Topic |\n|------|------|-------|\n| `Matter_HAAV_Master_Practice_Guide.docx` | H-A-A-V-, 29 I&N Dec. 233 (BIA 2025) | Asylum pretermission — legal sufficiency |\n| `Matter_CARR_Master_Practice_Guide.docx` | C-A-R-R-, 29 I&N Dec. 13 (BIA 2025) | I-589 completeness & abandonment |\n| `Matter_JGP_Master_Practice_Guide.docx` | J-G-P-, 27 I&N Dec. 642 (BIA 2019) | CIMT, categorical approach, cancellation |\n| `Habeas_Corpus_Master/` (10 files) | 28 U.S.C. § 2241 | Complete habeas corpus li",
       "summary": "Documents Created (all in /Users/francisco/docs/)",
       "category": "project_immigration_law",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.03909581009002636,
       "accessCount": 0,
       "words": [
@@ -354,7 +354,7 @@
       "content": "- **Base URL:** https://www.courtlistener.com/api/rest/v4/\n- **Auth:** `Authorization: Token {user_token}` — ask user for token each session (never stored)\n- **Rate limit:** 10 req/min — add `sleep 3-5` between calls in loops",
       "summary": "CourtListener API",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.03909581009002636,
       "accessCount": 0,
       "words": [
@@ -396,7 +396,7 @@
       "content": "COO **and** attorney at **Law Office Santiago** (ops@lawofficesantiago.com), an immigration firm in Katy, TX. Does **not** litigate — work is operations, advisory, and non-litigation legal work; route courtroom/litigation strategy to attorney review.",
       "summary": "Role",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.03909581009002636,
       "accessCount": 0,
       "words": [
@@ -432,7 +432,7 @@
       "content": "- [Immigration Law Cases & Documents](project_immigration_law.md) — H-A-A-V-, C-A-R-R-, J-G-P-, habeas corpus library; all .docx files in /Users/francisco/docs/\n- [CourtListener API Reference](reference_courtlistener.md) — Authenticated API access; user provides token each session\n- [User Profile](user_profile.md) — Immigration attorney at Law Office Santiago; ops@lawofficesantiago.com\n- [Venezuelan Mental Health Asylum Case](project_venezuela_mental_health_asylum.md) — 24-yr-old son, mental ill",
       "summary": "Memory Index — Law Office Santiago",
       "category": "core",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -504,7 +504,7 @@
       "content": "name: Immigration Law Cases — Law Office Santiago\ndescription: All BIA case guides researched and built for Law Office Santiago — H-A-A-V-, C-A-R-R-, J-G-P-, habeas corpus library, and CourtListener API\ntype: project\noriginSessionId: afdcf3bd-76cb-4e2b-9010-ca4e99d5433c\n---",
       "summary": "---",
       "category": "project_immigration_law",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -545,7 +545,7 @@
       "content": "name: venezuela-mental-health-asylum\ndescription: Asylum case for 24-year-old Venezuelan man with mental illness whose mother won asylum in detained court in Texas\nmetadata: \n  node_type: memory\n  type: project\n  originSessionId: 4c858d2b-27d1-4b39-9c17-8808fd54a852\n---\n\nCase involves a 24-year-old Venezuelan man with mental health problems whose mother won asylum in detained immigration court in Texas (5th Circuit).\n\nKey facts:\n- Son entered EWI approximately June 2025 (1 year ago as of June 20",
       "summary": "---",
       "category": "project_venezuela_mental_health_asylum",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -612,7 +612,7 @@
       "content": "name: CourtListener API — Authenticated Access\ndescription: User has authenticated CourtListener API access for live case law research\ntype: reference\noriginSessionId: afdcf3bd-76cb-4e2b-9010-ca4e99d5433c\n---",
       "summary": "---",
       "category": "reference_courtlistener",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -644,7 +644,7 @@
       "content": "name: User Profile — Law Office Santiago\ndescription: User is COO and a non-litigating attorney at Law Office Santiago, building practice guides and teaching materials\ntype: user\noriginSessionId: afdcf3bd-76cb-4e2b-9010-ca4e99d5433c\n---",
       "summary": "---",
       "category": "user_profile",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -680,7 +680,7 @@
       "content": "- [Firm habeas pro se model](firm-habeas-pro-se-model.md) — Firm drafts full habeas + motions but files pro se in client's name; attorney name does NOT appear on the filing.\n- [Paralegal: Roberth Suarez](firm-paralegal-roberth-suarez.md) — Drafts federal habeas under the pro se ghostwriting model; address training docs to him by name.\n- [User email](user-email.md) — User's working email is ayuda@lawofficesantiago.com (replaces ops@).",
       "summary": "Memory Index",
       "category": "core",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -738,7 +738,7 @@
       "content": "name: firm-habeas-pro-se-model\ndescription: \"Law Offices of Jose R Santiago prepares habeas corpus petitions and related motions in full but files them pro se in the client's name to reduce client cost without sacrificing document quality. The firm's name and attorney signature do NOT appear on these filings.\"\nmetadata: \n  node_type: memory\n  type: project\n  originSessionId: ce98d05c-bf88-41be-abae-57aa9186e6d0\n---\n\nThe Law Offices of Jose R Santiago, PLLC offers habeas corpus work under a **gho",
       "summary": "---",
       "category": "firm-habeas-pro-se-model",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -802,7 +802,7 @@
       "content": "name: firm-paralegal-roberth-suarez\ndescription: \"Roberth Suarez is the paralegal at Law Offices of Jose R Santiago who handles federal habeas drafting under the firm's pro se ghostwriting model. Training and feedback documents should be addressed to him by name.\"\nmetadata: \n  node_type: memory\n  type: project\n  originSessionId: ce98d05c-bf88-41be-abae-57aa9186e6d0\n---\n\n**Roberth Suarez** is the paralegal at Law Offices of Jose R Santiago, PLLC who drafts federal habeas corpus petitions, travers",
       "summary": "---",
       "category": "firm-paralegal-roberth-suarez",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -862,7 +862,7 @@
       "content": "name: user-email\ndescription: \"User's working email address at Law Offices of Jose R. Santiago, PLLC\"\nmetadata: \n  node_type: memory\n  type: user\n  originSessionId: 19573244-252c-4673-8463-0101754d27af\n---\n\nUser's working email is **ayuda@lawofficesantiago.com**.\n\nThis supersedes the older `ops@lawofficesantiago.com` address. Use `ayuda@` for: drafting outbound correspondence on the user's behalf, contractor/onboarding documents (welcome emails, contracts, payment exhibits), and any \"From\" / con",
       "summary": "---",
       "category": "user-email",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
@@ -923,7 +923,7 @@
       "content": "name: WPS Office preference\ndescription: User uses WPS Office (not Microsoft Word) for .doc/.docx files\ntype: feedback\noriginSessionId: b4302f74-4a33-497b-8f4c-0a2fa40aa8d6\n---\nUser only uses WPS Office to open .doc and .docx files. Microsoft Word is not installed.\n\n**Why:** User preference / software setup on their Mac.\n**How to apply:** When creating documents, save as .doc or .docx compatible format and open with WPS Office, not Microsoft Word MCP tool. Alternatively save as .txt if WPS is no",
       "summary": "---",
       "category": "feedback_wps_office",
-      "confidence": 0.425,
+      "confidence": 0.42,
       "pageRank": 0.02113287394881895,
       "accessCount": 0,
       "words": [
