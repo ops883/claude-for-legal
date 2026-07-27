@@ -637,6 +637,10 @@ Pull each of these before filing. Ordered by evidentiary priority.
 | 48 | **USCIS PM-602-0194** — Pending Applications, Additional High-Risk Countries | Jan. 1, 2026 | https://www.uscis.gov/sites/default/files/document/policy-alerts/PM-602-0194-PendingApplicationsAdditionalHighRiskCountries-20260101.pdf |
 | 49 | ***Dorcas Int'l Inst. of R.I. v. USCIS*** — nationwide vacatur of the holds (D.R.I., McConnell, C.J.) | June 5, 2026 | https://global.upenn.edu/isss/news-articles/immigration-update-federal-court-decision-on-uscis-adjudication-hold-policies/ |
 | 50 | Harris Beach Murtha — analysis of the *Dorcas* vacatur | June 2026 | https://www.harrisbeachmurtha.com/insights/federal-court-vacates-uscis-adjudication-pauses/ |
+| 51 | U.S. State Dept — Venezuela **2023** Human Rights Report (PDF; for year-over-year scope comparison) | Feb. 2024 | https://www.state.gov/wp-content/uploads/2024/02/528267_VENEZUELA-2023-HUMAN-RIGHTS-REPORT.pdf |
+| 52 | HRW — "US: Rights Report Mixes Facts, Deception, Political Spin" (critique of the scaled-back 2024 edition) | Aug. 12, 2025 | https://www.hrw.org/news/2025/08/12/us-rights-report-mixes-facts-deception-political-spin |
+| 53 | CNN — State Dept human rights report scaled back, omits abuses in allied countries | Aug. 12, 2025 | https://www.cnn.com/2025/08/12/politics/state-department-human-rights-violations-report |
+| 54 | CRS IF10795 — *Global Human Rights: The State Department's Country Reports* (statutory deadline, scope, and process) | ongoing | https://www.congress.gov/crs-product/IF10795 |
 
 ### Gaps to close before filing
 
@@ -652,10 +656,10 @@ Pull each of these before filing. Ordered by evidentiary priority.
 
 **Still open:**
 
-- [ ] **State Dept Country Report on Human Rights Practices for 2025** — not
-      located; the 2024 edition (released Aug. 12, 2025) remains the most recent
-      confirmed. Given the August release pattern, the 2025 edition may issue
-      within weeks. Check:
+- [ ] **State Dept Country Report on Human Rights Practices for 2025** — **still
+      not issued as of July 27, 2026** (re-checked). The 2024 edition remains the
+      most recent. See the caution immediately below before relying on it when
+      it lands. Check:
       https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/
 - [ ] **Most recent Foro Penal monthly report** (post-June 2026) — the count
       moves; get the number closest to your hearing date.
@@ -666,6 +670,46 @@ Pull each of these before filing. Ordered by evidentiary priority.
       command structures post-transition.
 - [ ] **Confirm the SEBIN locked-doors allegation** (§ 10) independently before
       pleading it.
+
+### Caution — the State Department reports have been scaled back
+
+Relevant both to what you cite and to what DHS may cite against you.
+
+**Timing.** The reports are due by statute on **February 25** each year. In
+practice they slip to March or April. The 2024 edition slipped to **August 12,
+2025**. As of July 27, 2026 the 2025 edition is roughly **five months past the
+statutory deadline** and has not issued; if it follows last year's pattern it may
+land in August 2026. Do not build a filing schedule around it.
+
+**Reduced scope.** Following the 2025 reorganization of the State Department —
+which closed most offices of the Bureau of Democracy, Human Rights, and Labor,
+including most DRL regional offices, and dismissed roughly 60 contractors — the
+reports were **pared back toward the statutory minimum**. Reporting indicates
+drafters were instructed to remove sections on arbitrary or unlawful interference
+with privacy, extensive gender-based violence, involuntary medical or
+psychological practices, restrictions on internet freedom, and violence or
+discrimination against LGBTQ people and people with disabilities. Human Rights
+Watch's assessment of the 2024 edition was that it mixed "facts, deception, and
+political spin"; CNN reported it omitted detail on abuses in politically allied
+countries.
+
+**Two consequences for your case.**
+
+1. **Do not treat a thin 2025 report as evidence of improved conditions.** If the
+   Venezuela chapter is shorter or drops categories that appeared in 2023 and
+   2024, that reflects a change in U.S. reporting policy, not a change in
+   Venezuela. Be ready to show the year-over-year structural comparison — the
+   2023 and 2024 PDFs are in the source list (#20, #51) for exactly this.
+2. **The omission argument cuts both ways, so make it first.** If DHS points to
+   the absence of a category in the current report, the answer is that the
+   category was removed department-wide across nearly 200 countries. Sources #52
+   and #53 document that.
+
+The corollary: **Tier 1 weight in a 2026 Venezuelan case sits with the UN
+Fact-Finding Mission, HRW, Amnesty International, and Foro Penal, not with the
+State Department report.** Cite the State Department for the travel advisory and
+the consular-services suspension (§ 10), which are current, official, and adverse
+to the government's own removal posture.
 
 ---
 
