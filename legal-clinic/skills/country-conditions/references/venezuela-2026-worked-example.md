@@ -81,6 +81,119 @@ fundamental change in circumstances where the institutions that carried out the
 persecution remain intact and operational. That is the argument this packet is
 built to support.
 
+> **But read § 1A first.** In 2026 the more immediate threat to a Venezuelan
+> asylum claim is not the changed-circumstances argument — it is **pretermission
+> at the threshold** under the asylum-cooperative-agreement safe-third-country
+> bar, which prevents the Immigration Judge from ever reaching the merits. Over
+> 30,000 pretermissions were tracked through May 2026, and the Board issued four
+> precedent decisions tightening the bar between October 2025 and July 2026, one
+> of them involving Venezuelan respondents.
+
+---
+
+## 1A. Threshold alert — the ACA safe-third-country bar may moot this packet
+
+**Read this before doing anything else with a Venezuelan case.** Nothing in
+§§ 2–14 matters if the application is pretermitted at the threshold, and in 2026
+DHS is pretermitting Venezuelan asylum applications at scale.
+
+### The mechanism
+
+Under INA § 208(a)(2)(A), 8 U.S.C. § 1158(a)(2)(A), an applicant is **ineligible
+to apply for asylum** if the Attorney General determines they may be removed
+under a bilateral or multilateral agreement to a third country. The bar is
+implemented by **8 C.F.R. § 1240.11(h)** and the **ACA Rule**, 84 Fed. Reg.
+63994 (Nov. 19, 2019), ratified at 90 Fed. Reg. 42309 (Sept. 2, 2025).
+
+If the bar applies, the Immigration Judge **never reaches Venezuela country
+conditions**. The client is ordered removed to the ACA country instead.
+
+### Scale — this is not theoretical
+
+As of **May 2026**, Mobile Pathways tracked **30,111 pretermissions** of
+individual asylum cases listing an ACA country as the first country of removal
+for non-nationals. The March 2026 breakdown of 15,225 tracked pretermissions:
+**8,675 Ecuador**, 3,900+ Honduras, 863 Guatemala, 1,760+ Uganda. Actual
+transfers were far fewer — Third Country Deportation Watch estimated only
+**100–200** completed transfers as of early May 2026 — meaning the bar is
+functioning principally as a **case-disposal device**, not as an actual
+relocation program.
+
+**ACA countries:** Belize, Ecuador, Guatemala, Honduras, Uganda. Further
+agreements or attempts reported with Cabo Verde, Liberia, Paraguay, Costa Rica
+(2025 and 2026), Mexico, and Rwanda. **DHS has applied these against Venezuelans
+specifically**, as well as Cubans.
+
+### The BIA precedent is hardening fast — four decisions in nine months
+
+| Decision | Date | Holding |
+|---|---|---|
+| *Matter of C-I-G-M- & L-V-S-G-*, 29 I&N Dec. 291 | Oct. 31, 2025 | Framework decision (Honduras ACA). Once DHS gives notice, the **burden shifts to the applicant** to show by a preponderance that the ACA does not apply |
+| *Matter of A-C-M-*, 29 I&N Dec. 703 | June 17, 2026 | Where the record lacks evidence of **individualized risk in the ACA country**, an evidentiary hearing is **generally unnecessary** |
+| ***Matter of E-A-R-M-*, 29 I&N Dec. 746** | **July 10, 2026** | DHS's **oral** motion to pretermit is sufficient notice of intent to remove to the third country. **The respondents were Venezuelan**; the ACA country was Ecuador |
+| *Matter of N-E-R-S-*, 29 I&N Dec. 753 | July 10, 2026 | DHS need **not** produce an implementing instrument, operating procedures, or a complete set of operative terms |
+
+*E-A-R-M-* is worth reading in full. The Board took an **interlocutory** appeal —
+which it does not ordinarily do — expressly to correct what it called the
+"recurring misapplication" of § 1240.11(h) by Immigration Judges. That signals
+the Board intends to keep policing IJs who resist pretermission.
+
+### What the IJ may and may not decide
+
+**May decide** — 8 C.F.R. § 1240.11(h)(2)–(3):
+
+1. whether the agreement does not apply to the respondent;
+2. whether the respondent qualifies for an exception in the **published Federal
+   Register document** setting out that ACA;
+3. whether the respondent shows it is **more likely than not** they will be
+   persecuted on a protected ground or tortured **in the ACA country**.
+
+**May not decide:**
+
+- whether the ACA country will actually **accept** the respondent;
+- whether the respondent will have access to **full and fair procedures** there;
+- whether it is in the **public interest** to allow the claim in the U.S.;
+- the country-of-removal designation itself — neither the IJ nor the Board has
+  jurisdiction to review it. 8 C.F.R. § 1241.15; *Matter of A-S-M-*, 28 I&N Dec.
+  282 (BIA 2021).
+
+The absence of an implementation plan is **not** a permissible basis for finding
+the ACA inapplicable (*E-A-R-M-*; *N-E-R-S-*).
+
+### What this means for your case
+
+**Your Venezuela evidence is irrelevant to the ACA determination.** Element (3)
+above asks about persecution or torture **in Ecuador** (or Honduras, Uganda,
+Guatemala, Belize) — not Venezuela. A packet establishing that SEBIN tortures
+opposition activists in Caracas does nothing to defeat pretermission.
+
+Practical consequences, in order of priority:
+
+1. **Check arrival date first.** The ACA Rule applies **only prospectively** to
+   those who arrived or attempted to enter **on or after November 19, 2019**. A
+   pre-November-2019 entrant is outside it entirely.
+2. **Check the ACA's own exceptions** in the Federal Register document. The
+   Ecuador ACA (90 Fed. Reg. 51376, Nov. 17, 2025) excludes **unaccompanied
+   minors, Ecuadorian nationals, and habitual residents of Ecuador**. Each ACA
+   has its own list — read the operative document, not a summary.
+3. **Build the ACA-country risk record early and separately.** After *A-C-M-*,
+   a record "devoid of evidence" of individualized risk in the ACA country means
+   **no evidentiary hearing at all**. Evidence must be in the record before the
+   motion is decided. This is a second country conditions research task, and it
+   is the one with the deadline.
+4. **Do not rely on DHS's procedural sloppiness.** After *E-A-R-M-* an oral
+   motion suffices, and after *N-E-R-S-* DHS need produce almost nothing.
+   Arguments built on defective notice or missing implementation documents are
+   now foreclosed at the Board.
+5. **Preserve everything on the record** for circuit review. CourtListener shows
+   **no 2026 published circuit decision** reviewing an ACA pretermission of a
+   Venezuelan applicant. This is unsettled above the Board, and preservation is
+   how it gets settled.
+
+> **Bottom line.** Treat the ACA bar as the first-order question in every 2026
+> Venezuelan case. The material in §§ 2–14 wins the merits — but only if you
+> get to the merits.
+
 ---
 
 ## 2. Timeline of 2026 developments
@@ -494,15 +607,23 @@ to additional countries. USCIS announced a partial lift of the asylum hold on
 **March 30, 2026**.
 
 On **June 5, 2026**, in ***Dorcas International Institute of Rhode Island v.
-USCIS***, Chief Judge John J. McConnell Jr. (D.R.I.) held four of these policies
-unlawful under the APA and in excess of statutory authority, and **vacated them
-nationwide**. USCIS stated it disagrees but would comply and discontinue
-enforcement. The government appealed to the **First Circuit**; as of this
-research **no stay had issued and the nationwide vacatur remains in place**.
+USCIS***, No. 1:26-cv-00132 (D.R.I.), Chief Judge John J. McConnell Jr. held
+four policies unlawful under the APA and in excess of statutory authority and
+**vacated them nationwide** — the Benefits Hold Policy, the Global Asylum Hold
+Policy, the Comprehensive Re-Review Policy, and the Country-Specific Factors
+Policy. USCIS stated it disagrees but would comply and discontinue enforcement.
+
+The government appealed to the **First Circuit, No. 26-1703**, and moved the
+district court to stay its own ruling pending appeal. On **July 15, 2026 the
+district court denied the stay**, finding the government unlikely to succeed on
+the merits and the public interest against reinstating the pause. **The vacatur
+is in effect and USCIS is adjudicating** applications from nationals of the
+previously listed countries, Venezuela among them.
 
 Practical effect: affirmative I-589 adjudication for Venezuelan nationals should
-be proceeding. If a client's case is still frozen, *Dorcas* is the citation.
-Confirm the appeal's status before relying on this.
+be proceeding. If a client's case is still frozen, *Dorcas* is the citation. The
+appeal remains pending, so the policies could be reinstated if the government
+prevails — check the First Circuit docket before relying on this.
 
 **U.S. government's own position on conditions.** The State Department maintains
 Venezuela at **Level 4 — Do Not Travel**, updated January 2026, citing
@@ -642,6 +763,23 @@ Pull each of these before filing. Ordered by evidentiary priority.
 | 53 | CNN — State Dept human rights report scaled back, omits abuses in allied countries | Aug. 12, 2025 | https://www.cnn.com/2025/08/12/politics/state-department-human-rights-violations-report |
 | 54 | CRS IF10795 — *Global Human Rights: The State Department's Country Reports* (statutory deadline, scope, and process) | ongoing | https://www.congress.gov/crs-product/IF10795 |
 
+### Tier 4 — the ACA safe-third-country bar (see § 1A)
+
+| # | Source | Date | URL |
+|---|---|---|---|
+| 55 | ***Matter of E-A-R-M-*, 29 I&N Dec. 746 (BIA 2026)** — oral motion suffices as notice; **Venezuelan respondents**, Ecuador ACA | July 10, 2026 | https://www.courtlistener.com/opinion/10925365/e-a-r-m/ |
+| 56 | *Matter of N-E-R-S-*, 29 I&N Dec. 753 (BIA 2026) — no implementing instrument required | July 10, 2026 | https://www.courtlistener.com/opinion/10925483/n-e-r-s/ |
+| 57 | *Matter of A-C-M-*, 29 I&N Dec. 703 (BIA 2026) — generally no evidentiary hearing | June 17, 2026 | https://www.courtlistener.com/opinion/10876385/a-c-m/ |
+| 58 | *Matter of C-I-G-M- & L-V-S-G-*, 29 I&N Dec. 291 (BIA 2025) — framework; burden-shifting | Oct. 31, 2025 | https://www.courtlistener.com/opinion/10749339/c-i-g-m-l-v-s-g/ |
+| 59 | **U.S.–Ecuador ACA**, 90 Fed. Reg. 51376 (exceptions at 51378–79) | Nov. 17, 2025 | https://www.federalregister.gov/documents/2025/11/17/2025-51376 |
+| 60 | ACA Rule — Implementing Bilateral and Multilateral Asylum Cooperative Agreements, 84 Fed. Reg. 63994 (interim rule) | Nov. 19, 2019 | https://www.federalregister.gov/documents/2019/11/19/2019-25137 |
+| 61 | Ratification of Department Action (ratifying the ACA Rule), 90 Fed. Reg. 42309 | Sept. 2, 2025 | https://www.federalregister.gov/documents/2025/09/02/2025-42309 |
+| 62 | **Third Country Deportation Watch** — tracker of ACA transfers and pretermissions | ongoing | https://www.thirdcountrydeportationwatch.org/ |
+| 63 | Human Rights First & Refugees International — scope, secrecy, and human toll of third-country transfer agreements | 2026 | https://www.refugeesinternational.org/statements-and-news/human-rights-first-and-refugees-international-third-country-deportation-watch-details-scope-secrecy-and-human-toll-of-third-country-transfer-agreements/ |
+| 64 | CLINIC — *Outsourcing Our Human Rights Obligations* (ACA analysis) | 2026 | https://www.cliniclegal.org/file-download/download/public/79714 |
+| 65 | *Dorcas Int'l Inst. of R.I. v. USCIS* — First Circuit docket No. 26-1703 | ongoing | https://www.courtlistener.com/docket/73477958/dorcas-international-institute-of-rhode-island-v-united-states-citizenship/ |
+| 66 | *Dorcas* — district court docket, D.R.I. No. 1:26-cv-00132 | ongoing | https://www.courtlistener.com/docket/72369535/dorcas-international-institute-of-rhode-island-v-united-states-citizenship/ |
+
 ### Gaps to close before filing
 
 **Closed since the first draft:**
@@ -662,9 +800,16 @@ Pull each of these before filing. Ordered by evidentiary priority.
       it lands. Check:
       https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/
 - [ ] **Most recent Foro Penal monthly report** (post-June 2026) — the count
-      moves; get the number closest to your hearing date.
-- [ ] **First Circuit status in *Dorcas*** — confirm no stay has issued before
-      relying on the vacatur.
+      moves; get the number closest to your hearing date. Re-checked July 27,
+      2026: **no July figure is publicly available**; June 9 (389) remains the
+      most recent verified count.
+- [ ] **ACA-country conditions research** (§ 1A) — if an ACA is in play this is
+      a *separate* and more urgent research task than this packet. Ecuador is
+      the likely designation for Venezuelans on current pretermission volumes.
+- [ ] **First Circuit merits in *Dorcas*** (No. 26-1703) — the district court
+      **denied** the government's stay motion on **July 15, 2026** and the
+      vacatur is in effect, but the appeal is pending. Check the docket before
+      relying on it.
 - [ ] **Country conditions expert** — consider retaining; the continuity-of-
       apparatus argument benefits from a declarant who can speak to SEBIN/DGCIM
       command structures post-transition.

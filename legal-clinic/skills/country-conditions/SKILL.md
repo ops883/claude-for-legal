@@ -48,6 +48,34 @@ This skill produces a packet organized around that question.
 `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → practice
 areas, jurisdiction, supervising attorney, escalation rules.
 
+## Check for a threshold bar before researching anything
+
+Country conditions research is merits research. If a **threshold bar** disposes
+of the application first, the packet is wasted work — and worse, the student
+spends the available time on the wrong record.
+
+Ask, in this order, before opening a single source:
+
+1. **Safe third country / asylum cooperative agreement.** Under
+   INA § 208(a)(2)(A) and 8 C.F.R. § 1240.11(h), an applicant who may be removed
+   to an ACA country is **ineligible to apply for asylum at all**. The
+   Immigration Judge never reaches the country of feared persecution. Where an
+   ACA is in play, the only merits-type showing available is persecution or
+   torture **in the ACA country** — which is a different research task, with an
+   earlier deadline, and it is the one that matters. Check the client's date of
+   entry (the ACA Rule applies only to entries on or after November 19, 2019)
+   and the exceptions in the Federal Register document publishing that specific
+   agreement.
+2. **One-year filing deadline.** INA § 208(a)(2)(B), and whether a changed- or
+   extraordinary-circumstances exception applies under § 208(a)(2)(D).
+3. **Prior denial, firm resettlement, particularly serious crime, persecutor
+   bar, terrorism-related inadmissibility.**
+
+Withholding of removal and CAT protection survive the asylum-specific bars, so a
+threshold bar rarely ends the case — but it changes which country's conditions
+you need and which form of relief the packet is built to support. Establish this
+first and confirm it with the supervising attorney.
+
 ## Scope the packet first
 
 Ask before researching. These four answers change what gets built:
