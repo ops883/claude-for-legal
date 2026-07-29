@@ -39,8 +39,9 @@ claude plugin validate external_plugins/cocounsel-legal
 # 2. Cookbook tool-scope lint (orchestrators must not over-grant tools)
 python3 scripts/lint-tool-scope.py
 
-# 3. JSON/YAML sanity
-python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('**/*.json', recursive=True)]"
+# 3. JSON/YAML sanity (skip node_modules — vendored tsconfig.json files are
+#    JSONC, so an unfiltered glob fails on comments, not on our own JSON)
+python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('**/*.json', recursive=True) if 'node_modules/' not in f]"
 ```
 
 ### Marketplace invariants (I1–I11)
