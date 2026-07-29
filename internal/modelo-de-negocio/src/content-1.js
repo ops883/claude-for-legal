@@ -1,5 +1,5 @@
 const { Paragraph, TextRun, PageBreak, AlignmentType, TableOfContents, BorderStyle } = require('docx');
-const H = require('./build-helpers');
+const H = require('../../lib/build-helpers');
 const { h1, h2, h3, p, bullet, numbered, spacer, mono, callout, table, NAVY, SLATE, ACCENT } = H;
 
 const FIRM = 'Law Offices of Jose R. Santiago, PLLC';
