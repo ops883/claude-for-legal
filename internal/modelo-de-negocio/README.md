@@ -40,18 +40,61 @@ contenido, no por su número**, porque la numeración de las Texas Disciplinary
 Rules of Professional Conduct no coincide con la del modelo ABA que cita la
 mayoría de la literatura del sector.
 
-## Cómo regenerar el `.docx`
+## El modelo financiero — el instrumento del Anexo A
 
-La fuente vive en `src/`. El texto está en literales dentro de los módulos
-`content-*.js`, así que es diffable y se puede buscar con grep.
+[`Modelo-Financiero-Santiago-PLLC.xlsx`](./Modelo-Financiero-Santiago-PLLC.xlsx)
+convierte el Anexo A en algo operable: se cargan los datos reales y el modelo
+recalcula solo. Viene precargado con los valores ilustrativos del documento
+para que funcione desde el primer momento; **se sustituyen por los reales**.
+
+| Hoja | Para qué sirve |
+|---|---|
+| `Instrucciones` | Código de color y qué se edita. Solo se escribe en celdas amarillas |
+| `Supuestos` | Costo cargado por hora de cada rol, overhead por caso, costos fijos, marketing |
+| `TiposDeCaso` | Una fila por tipo de caso: precio, horas de entrega, CAC, volumen. Calcula el margen y ordena qué producto sostiene la firma |
+| `Embudo` | Consultas, atendidas y firmadas mes a mes. Calcula conversión y CAC |
+| `Firma` | Estado de resultados, punto de equilibrio y colchón sobre el equilibrio |
+| `Palancas` | Cuánto mueve la utilidad cada cambio: conversión, horas, precio, CAC |
+| `Panel` | Los cinco números del lunes por la mañana |
+
+Dos notas sobre su construcción:
+
+- **Todo son fórmulas, no resultados calculados y pegados.** El archivo
+  recalcula al cambiar cualquier entrada.
+- **La hoja `Embudo` es robusta a estar a medio rellenar.** El CAC total solo
+  cuenta el marketing de los meses que ya tienen casos cargados; de lo
+  contrario, dividir doce meses de gasto entre dos de datos daría un CAC
+  absurdo justo cuando se empieza a usar.
+
+**El saldo de la cuenta fiduciaria (IOLTA) no se carga en ninguna celda de este
+archivo.** Los fondos del cliente no devengados no son ingreso ni activo de la
+firma, y una proyección que los incluya está inflada.
+
+## Cómo regenerar los archivos
+
+Las dependencias se instalan una sola vez en `internal/`, que es donde vive el
+`node_modules` compartido por los generadores de esta carpeta y de `../memos/`.
 
 ```bash
-cd internal/modelo-de-negocio
-npm install docx        # solo la primera vez
+cd internal && npm install docx          # solo la primera vez
+cd modelo-de-negocio
 node src/build.js "Modelo-de-Negocio-Law-Offices-of-Jose-R-Santiago-PLLC.docx"
+python3 src/build_xlsx.py
 ```
 
-Para verificar el resultado visualmente (requiere LibreOffice Writer y poppler):
+**El `.xlsx` necesita un paso más.** `openpyxl` escribe las fórmulas sin valores
+en caché, así que hasta recalcularlo cualquier lector que use valores cacheados
+—`pandas`, Vista Previa, muchos visores— lo verá vacío:
+
+```bash
+python3 ~/.claude/skills/xlsx/scripts/recalc.py Modelo-Financiero-Santiago-PLLC.xlsx 180
+```
+
+Debe reportar `"status": "success"` con `total_errors: 0`. Ojo: eso prueba que
+las fórmulas **evalúan**, no que sean **correctas** — un rango mal puesto
+produce un archivo limpio con números equivocados.
+
+Para verificar el `.docx` visualmente (requiere LibreOffice Writer y poppler):
 
 ```bash
 soffice --headless --convert-to pdf --outdir . *.docx
@@ -63,20 +106,31 @@ pdftoppm -jpeg -r 80 *.pdf page      # revisar las imágenes page-*.jpg
 | Archivo | Qué contiene |
 |---|---|
 | `build.js` | Ensamblado del documento: página, estilos, pie de página, orden de las partes |
-| `build-helpers.js` | Constructores reutilizables: encabezados, tablas, recuadros, bloques monoespaciados, viñetas |
 | `content-1.js` | Portada, nota preliminar, índice y Partes 0–4 |
 | `content-2.js` | Partes 5–13 |
 | `content-3.js` | Partes 14–16, resumen ejecutivo y Anexo A |
+| `build_xlsx.py` | Genera el modelo financiero completo, hoja por hoja |
 
-Al editar: el ancho útil de página es **9360 DXA** y las columnas de cada tabla
-deben sumar exactamente esa cifra — `build-helpers.js` lanza un error si no
-cuadra, así que un desajuste se detecta al compilar y no al abrir el archivo.
+Los constructores compartidos —encabezados, tablas, recuadros, bloques
+monoespaciados, viñetas— viven en
+[`../lib/build-helpers.js`](../lib/build-helpers.js) y los usan también los
+generadores de `../memos/`.
+
+Al editar el `.docx`: el ancho útil de página es **9360 DXA** y las columnas de
+cada tabla deben sumar exactamente esa cifra — `build-helpers.js` lanza un error
+si no cuadra, así que un desajuste se detecta al compilar y no al abrir el
+archivo.
 
 ## No versionado aquí
 
-`node_modules/`, los PDF intermedios y las imágenes de verificación
-(`page-*.jpg`) son artefactos de compilación y están excluidos por el
-`.gitignore` de esta carpeta.
+`node_modules/`, los PDF intermedios y las imágenes de verificación son
+artefactos de compilación y están excluidos por el `.gitignore` de `internal/`.
+
+Un detalle si instalas las dependencias: el chequeo de sanidad de JSON del
+`CLAUDE.md` de la raíz filtra `node_modules/`. Sin ese filtro falla, porque
+algunas dependencias traen `tsconfig.json` en formato JSONC (con comentarios) y
+el parser estándar los rechaza. El fallo sería de una dependencia ajena, no de
+un JSON del repositorio.
 
 Un detalle si instalas las dependencias aquí: el chequeo de sanidad de JSON del
 `CLAUDE.md` de la raíz filtra `node_modules/`. Sin ese filtro falla, porque

@@ -4,7 +4,7 @@ const {
   BorderStyle, PageOrientation,
 } = require('docx');
 
-const H = require('./build-helpers');
+const H = require('../../lib/build-helpers');
 const C1 = require('./content-1');
 const C2 = require('./content-2');
 const C3 = require('./content-3');

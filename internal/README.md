@@ -30,7 +30,13 @@ firm*, as distinct from the plugins the firm publishes.
 
 | Path | What it is |
 |---|---|
-| `modelo-de-negocio/` | Business model of the firm — Word document plus the source that generates it |
+| `modelo-de-negocio/` | Business model of the firm — Word document, the financial model that operationalizes its Annex A, and the source that generates both |
+| `memos/` | Compliance notes and decision memos — the *pro se* drafting question, and the Camino A / Camino B decision |
+| `lib/` | Shared document-generation helpers used by both |
+
+Dependencies for the generators install once at this level (`npm install docx`
+here, not in each subdirectory) — `lib/` sits above them, so Node resolves
+`docx` by walking up to `internal/node_modules`.
 
 ## Related
 

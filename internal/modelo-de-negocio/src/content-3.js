@@ -1,5 +1,5 @@
 const { Paragraph, TextRun, PageBreak } = require('docx');
-const H = require('./build-helpers');
+const H = require('../../lib/build-helpers');
 const { h1, h2, h3, p, bullet, check, numbered, spacer, mono, callout, table, ACCENT } = H;
 
 const pb = () => new Paragraph({ children: [new PageBreak()] });
