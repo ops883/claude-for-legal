@@ -1132,5 +1132,1517 @@
         "accessCount": 0
       }
     ]
+  },
+  {
+    "timestamp": 1784824881614,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.42,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.42,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784833175498,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.42,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.42,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784839108175,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42,
+      0.42
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.42,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.42,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.42,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.42,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.42,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.42,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784910364641,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784911249561,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784915735741,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784916033272,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784917961964,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1784921091671,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415,
+      0.415
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.415,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.415,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.415,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.415,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.415,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.415,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1785769039057,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.365,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.365,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1785770188513,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.365,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.365,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1785772670808,
+    "nodes": 22,
+    "edges": 13,
+    "pageRankSum": 0.9999999999999998,
+    "confidences": [
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365,
+      0.365
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-reference_courtlistener-coverage",
+        "summary": "Coverage",
+        "confidence": 0.365,
+        "pageRank": 0.0957210943176935,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-usage-pattern",
+        "summary": "Usage Pattern",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-document-library-location",
+        "summary": "Document Library Location",
+        "confidence": 0.365,
+        "pageRank": 0.08775071715660412,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-get-specific-cluster-metadata",
+        "summary": "Get specific cluster metadata",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-technical-setup",
+        "summary": "Technical Setup",
+        "confidence": 0.365,
+        "pageRank": 0.07837391251706449,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-full-opinion-text--by-cluster-",
+        "summary": "Full opinion text (by cluster_id from search results)",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-preferences",
+        "summary": "Preferences",
+        "confidence": 0.365,
+        "pageRank": 0.06734245667191674,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-reference_courtlistener-search-opinions",
+        "summary": "Search opinions",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_profile-current-focus",
+        "summary": "Current Focus",
+        "confidence": 0.365,
+        "pageRank": 0.054364281616433634,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_immigration_law-documents-created--all-in--use",
+        "summary": "Documents Created (all in /Users/francisco/docs/)",
+        "confidence": 0.365,
+        "pageRank": 0.03909581009002636,
+        "accessCount": 0
+      }
+    ]
   }
 ]
