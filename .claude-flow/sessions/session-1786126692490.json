@@ -1,0 +1,14 @@
+{
+  "id": "session-1786126692490",
+  "startedAt": "2026-08-07T18:18:12.490Z",
+  "cwd": "/Users/francisco/Documents/GitHub/claude-for-legal",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "endedAt": "2026-08-07T18:18:12.916Z",
+  "duration": 427
+}
