@@ -198,7 +198,7 @@ A wrong premise propagated through three paragraphs of analysis is harder to cat
 
 **Source tags are derived from what you actually did, not what you'd like to claim.**
 
-- `[Westlaw]` / `[CourtListener]` / `[Trellis]` / `[Descrybe]` — ONLY if the citation appears in a tool result from that MCP in this conversation.
+- `[Westlaw]` / `[CourtListener]` / `[Trellis]` — ONLY if the citation appears in a tool result from that MCP in this conversation.
 - `[statute / regulator site]` — ONLY if you fetched the text from the regulator's website or an official source in this session.
 - `[user provided]` — the user pasted or linked it.
 - `[model knowledge — verify]` — everything else. This is the default. If you didn't retrieve it, it's model knowledge, no matter how confident you are.
@@ -210,7 +210,7 @@ Do not promote a tag to a more trustworthy tier because the citation "seems righ
 
 - `[verify]` — a factual claim (cite, date, deadline, threshold, registration number, rule text) the reader should confirm against a primary source before relying on it. Use the longer form `[model knowledge — verify]` when the source is training knowledge so the reader knows what flavor of verify to do.
 - `[review]` — a judgment call the attorney needs to make. Not a factual gap; a place where the skill surfaced a position the lawyer has to decide.
-- `[Westlaw]` / `[CourtListener]` / `[Trellis]` / `[Descrybe]` / `[USPTO]` / `[statute / regulator site]` / `[user provided]` — where a cite actually came from. Provenance, not confidence. Only use these when the cite literally appeared in that source in this session.
+- `[Westlaw]` / `[CourtListener]` / `[Trellis]` / `[USPTO]` / `[statute / regulator site]` / `[user provided]` — where a cite actually came from. Provenance, not confidence. Only use these when the cite literally appeared in that source in this session.
 - `[VERIFY: …]` / `[UNCERTAIN: …]` — expanded forms of `[verify]` used in brief-drafting and chronology skills with the specific claim spelled out. Same intent.
 
 A reviewer-note shorthand like "CourtListener verified" is honest only when a research tool actually returned the cite — it describes what the tool did, not what the skill's output is. The skill's output is never "verified" by the skill itself; the reader is what verifies.
