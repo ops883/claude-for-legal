@@ -199,7 +199,7 @@ After install, skills fire automatically when relevant, slash commands are avail
 
 **Run the cold-start interview first.** Every other skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
-**Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
+**Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, and Solve Intelligence are the research tools the citation guardrails look for.
 
 Updates: `/plugin update`.
 
@@ -297,7 +297,7 @@ Community skills go through the same design review (`/legal-builder-hub:skills-q
 ## MCP Connectors
 
 > [!IMPORTANT]
-> **Connect a research tool first.** Every plugin ships with legal research connectors already configured — CourtListener, Trellis, Descrybe, Solve Intelligence, and others depending on practice area. You authorize them once, and from then on Claude pulls from authoritative sources and verifies its citations against current databases instead of relying on training knowledge. Citations that come through a research connector are tagged with the source. Citations from model knowledge alone are flagged `[verify]` and, if no research tool is connected at all, the reviewer note above the deliverable records that sources weren't verified so you know to check. The connectors are what make the cites trustworthy — set them up before you set up anything else.
+> **Connect a research tool first.** Every plugin ships with legal research connectors already configured — CourtListener, Trellis, Solve Intelligence, and others depending on practice area. You authorize them once, and from then on Claude pulls from authoritative sources and verifies its citations against current databases instead of relying on training knowledge. Citations that come through a research connector are tagged with the source. Citations from model knowledge alone are flagged `[verify]` and, if no research tool is connected at all, the reviewer note above the deliverable records that sources weren't verified so you know to check. The connectors are what make the cites trustworthy — set them up before you set up anything else.
 
 These plugins ship connectors for the systems legal teams live in. A connector gives Claude the ability to read from and (where scoped) write to your data; the skills and commands use them.
 
@@ -317,7 +317,6 @@ These plugins ship connectors for the systems legal teams live in. A connector g
 | **Definely** | In-document drafting and defined-terms checks | `commercial-legal`, `corporate-legal` | Customer subscription |
 | **Lawve AI** | Contract review assist and clause libraries | `legal-builder-hub` | Customer subscription |
 | **Courtroom5** | Self-represented litigant workflow | `legal-clinic` | Customer subscription |
-| **Descrybe** | Case law research and summarization | `legal-clinic`, `ip-legal`, `law-student` | Customer subscription |
 | **Solve Intelligence** | Patent drafting and prosecution | `corporate-legal`, `ip-legal` | Customer subscription |
 | **TopCounsel** | Matter routing and outside counsel panel | `commercial-legal`, `corporate-legal`, `litigation-legal` | Customer subscription |
 | **Linear** | Launch tracker, issue tracking | `product-legal` | Customer workspace |
