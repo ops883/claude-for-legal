@@ -39,9 +39,20 @@ claude plugin validate external_plugins/cocounsel-legal
 # 2. Cookbook tool-scope lint (orchestrators must not over-grant tools)
 python3 scripts/lint-tool-scope.py
 
-# 3. JSON/YAML sanity (skip node_modules — vendored tsconfig.json files are
-#    JSONC, so an unfiltered glob fails on comments, not on our own JSON)
-python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('**/*.json', recursive=True) if 'node_modules/' not in f]"
+# 3. JSON sanity. Walks hidden directories too — a `**/*.json` glob skips
+#    dotdirs, which would miss every `.claude-plugin/plugin.json`, i.e. exactly
+#    the manifests worth checking. Skips node_modules: vendored tsconfig.json
+#    files are JSONC, so they fail on comments, not on our own JSON.
+python3 -c "
+import json, os
+n = 0
+for root, dirs, files in os.walk('.'):
+    dirs[:] = [d for d in dirs if d not in ('node_modules', '.git')]
+    for f in files:
+        if f.endswith('.json'):
+            json.load(open(os.path.join(root, f))); n += 1
+print(f'{n} JSON files parsed OK')
+"
 ```
 
 ### Marketplace invariants (I1–I11)
